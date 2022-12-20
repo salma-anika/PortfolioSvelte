@@ -27,12 +27,13 @@
 <header id="header">
   <a href="" class="logo">Ava</a>
   <ul class="menu">
-    <li class="menulist"><a href="/" class="">Home</a></li>
+    <li class="menulist "><a href="/" class="">Home</a></li>
     <li class="menulist"><a href="about" class="">About</a></li>
     <li class="menulist"><a href="project" class="">Project</a></li>
     <li class="menulist"><a href="skill" class="">Skill</a></li>
     <li class="menulist"><a href="copy" class="">copy</a></li>
     <li class="menulist"><a href="contact" class="">Contact</a></li>
+    <li class="menulist"><a href="signup" class="">Signup</a></li>
   </ul>
 </header>
 
