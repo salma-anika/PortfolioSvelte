@@ -1,81 +1,595 @@
-
-<div id="signup" class="w-full h-screen pt-24 grid md:grid-cols-2 w-full  sm:grid-cols-1 bg-slate-300 px-8 py-16">
-   <!--
-  This example requires some changes to your config:
+<div class="container">
+       
   
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
--->
-
-      <div class="mt-5 md:col-span-2 md:mt-0 ">
-        <form action="#" method="POST" class="w-1/2 mx-auto pt-36">
-          <div class="overflow-hidden shadow sm:rounded-md">
-            <div class="bg-white px-4 py-5 sm:p-6">
-                <h1 class="font-bold" style="font-size:32px;  font-family:  Helvetica, Arial, sans-serif;"> Sign Up</h1>
-                <h6 class="pb-2">It's easy and quick</h6>
-               
-                <hr>
-              <div class="grid grid-cols-6 gap-6 pt-2">
-                <div class="col-span-6 sm:col-span-3">
+  <div class="modal">
+     
+     <div class="modal-signup">
+        
+        <div class="modal-close">
+            X
+        </div>
+        
+        <div class="modal-signup-heading">
+            
+            <p class="modal-signup-name">Sign Up</p>
+            
+            <p class="modal-signup-child-name">It's quick and easy.</p>
+            
+        </div>
+        
+        <div class="modal-signup-name">
                   
-                  <input type="text" name="first-name" id="first-name" placeholder="First name" autocomplete="given-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-  
-                <div class="col-span-6 sm:col-span-3">
+           <input type="text" placeholder="First name">
+           
+           <input type="text" placeholder="Surname">
+                      
+        </div>
+        
+        <div class="modal-signup-email">
+                  
+           <input type="email" placeholder="Email address or phone number">
+                  
+        </div>
               
-                  <input type="text" name="last-name" id="last-name" placeholder="Surname" autocomplete="family-name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-  
-                <div class="col-span-6 sm:col-span-4">
+        <div class="modal-signup-password">
+                  
+            <input type="password" placeholder="Password">
+                  
+         </div>
+              
+         <div class="modal-date-birth">
+            
+            <label for="">Date of birth</label>
+            
+            <div class="modal-date-alert">
                 
-                  <input type="text" name="email-address" id="email-address" placeholder="Mobile number or email address" autocomplete="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-  
-                <div class="col-span-6">
+                <a >&#63;</a>
                 
-                  <input type="text" name="street-address" id="street-address" placeholder="Password" autocomplete="street-address" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm">
-                </div>
-  
-                <div class="col-span-6 pb-2 ">
-                    <label for="street-address" class="block text-sm font-medium text-gray-500  "> Gender</label>
-                    <div class="col-span-6 flex ">
-                    <div class=" col-span-6 sm:col-span-6 lg:col-span-2 border-gray-400 text-left border rounded-md px-8 ">
-                        <input class="form-check-input" type="radio" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label" for="inlineCheckbox1">Male</label>
-                      </div>
-                      <div class=" col-span-6 sm:col-span-6 lg:col-span-2  border-gray-400 text-left border rounded-md px-8 mx-2">
-                        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2">Female</label>
-                      </div>
-                      <div class=" col-span-6 sm:col-span-6 lg:col-span-2  border-gray-400 text-left border rounded-md px-8">
-                        <input class="form-check-input" type="radio" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label" for="inlineCheckbox2">Custom</label>
-                      </div>
-                  </div>
-              </div>
-                         
             </div>
-            <h6 style="font-size:x-small; font-family:inherit; color:#1c1e21;"class="pb-2">People who use our service may have uploaded your contact information to Facebook. <a href="" class="text-blue-900">Learn more</a>.</h6>
-            <h6 style="font-size:x-small; font-family:inherit; color:#1c1e21;">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</h6>
-            <div class=" px-4 py-3 text-center sm:px-6">
-              <button type="submit" class=" justify-center rounded-md border border-transparent bg-green-700 py-2 px-12 text-sm  text-white font-bold ">Sign Up</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    
-  
- 
-  
-  
-  
-	</div>
+             
+         </div>
+         
+         <div class="modal-date-selection">
 
+          <div class="select-choice">
+              <select name="" id="">
+                  <option value="">
+                      1
+                  </option>
+                  <option value="">
+                      2
+                  </option>
+                  <option value="">
+                      3
+                  </option>
+                  <option value="">
+                      4
+                  </option>
+                  
+                  <option value="">
+                      5
+                  </option>
+                  
+                  <option value="">
+                      6
+                  </option>
+                  
+                  <option value="">
+                      7
+                  </option>
+                  
+                  <option value="">
+                      8
+                  </option>
+                  
+                  <option value="">
+                      9
+                  </option>
+                  
+                  <option value="">
+                      10
+                  </option>
+                  
+                  <option value="">
+                      11
+                  </option>
+                  
+                  <option value="">
+                      12
+                  </option>
+                  
+                  <option value="">
+                      13
+                  </option>
+                  
+                  <option value="">
+                      14
+                  </option>
+                  
+                  <option value="">
+                      15
+                  </option>
+                  
+                  <option value="">
+                      16
+                  </option>
+                  
+                  <option value="">
+                      17
+                  </option>
+                  
+                  <option value="">
+                      18
+                  </option>
+                  
+                  <option value="">
+                      19
+                  </option>
+                  
+                  <option value="">
+                      20
+                  </option>
+                  
+                  <option value="">
+                      21
+                  </option>
+                  
+                  <option value="">
+                      22
+                  </option>
+                  
+                  <option value="">
+                      23
+                  </option>
+                  
+                  <option value="">
+                      24
+                  </option>
+                  
+                  <option value="">
+                      25
+                  </option>
+                  
+                  <option value="">
+                      26
+                  </option>
+                  
+                  <option value="">
+                      27
+                  </option>
+                  
+                  <option value="">
+                      28
+                  </option>
+                  
+                  <option value="">
+                      29
+                  </option>
+                  
+                  <option value="">
+                      30
+                  </option>
+                  
+                  <option value="">
+                      31
+                  </option>
+              </select>
+          </div>
+          <div class="select-choice">
+           <select name="" id="">
+               
+               <option value="">
+                   
+                   Jan
+               </option>
+               
+               <option value="">
+                   
+                   Feb
+               </option>
+               
+               <option value="">
+                   
+                   Mar
+               </option>
+               
+               <option value="">
+                   
+                   Apr
+               </option>
+               
+               <option value="">
+                   
+                   May
+               </option>
+               
+               <option value="">
+                   
+                   Jun
+               </option>
+               
+               <option value="">
+                   
+                   Jul
+               </option>
+               
+               <option value="">
+                   
+                   Aug
+               </option>
+               
+               <option value="">
+                   
+                   Sep
+               </option>
+               
+               <option value="">
+                   
+                   Auc
+               </option>
+               
+               <option value="">
+                   
+                   Nav
+               </option>
+               
+               <option value="">
+                   
+                   Dec
+               </option>
+               
+               
+           </select>
+          </div>
+          <div class="select-choice">
+          <select name="" id="">
+              
+              <option value="">
+                  1950
+              </option>
+              
+              <option value="">
+                  1951
+              </option>
+              
+              <option value="">
+                  1952
+              </option>
+              
+              <option value="">
+                  1953
+              </option>
+              
+              <option value="">
+                  1954
+              </option>
+              
+              <option value="">
+                  1955
+              </option>
+              
+              <option value="">
+                  1956
+              </option>
+              
+              <option value="">
+                  1957
+              </option>
+              
+              <option value="">
+                  1958
+              </option>
+              
+              <option value="">
+                  1959
+              </option>
+              
+              <option value="">
+                  1960
+              </option>
+              
+              <option value="">
+                  1961
+              </option>
+              
+              <option value="">
+                  1962
+              </option>
+              
+              <option value="">
+                  1963
+              </option>
+              
+              <option value="">
+                  1964
+              </option>
+              
+              <option value="">
+                  1965
+              </option>
+              
+              <option value="">
+                  1966
+              </option>
+              
+              <option value="">
+                  1967
+              </option>
+              
+              <option value="">
+                  1968
+              </option>
+              
+              <option value="">
+                  1969
+              </option>
+              
+              <option value="">
+                  1970
+              </option>
+              
+              <option value="">
+                  1971
+              </option>
+              
+              <option value="">
+                  1972
+              </option>
+              
+              <option value="">
+                  1973
+              </option>
+              
+              <option value="">
+                  1974
+              </option>
+              
+              <option value="">
+                  1975
+              </option>
+              
+              <option value="">
+                  1976
+              </option>
+              
+              <option value="">
+                  1977
+              </option>
+              
+              <option value="">
+                  1978
+              </option>
+              
+              <option value="">
+                  1979
+              </option>
+              
+              <option value="">
+                  1980
+              </option>
+              
+               <option value="">
+                  1981
+              </option>
+              
+               <option value="">
+                  1982
+              </option>
+              
+               <option value="">
+                  1983
+              </option>
+              
+               <option value="">
+                  1984
+              </option>
+              
+               <option value="">
+                  1985
+              </option>
+              
+               <option value="">
+                  1986
+              </option>
+              
+               <option value="">
+                  1987
+              </option>
+              
+               <option value="">
+                  1988
+              </option>
+              
+               <option value="">
+                  1989
+              </option>
+              
+               <option value="">
+                  1990
+              </option>
+              
+               <option value="">
+                  1991
+              </option>
+              
+               <option value="">
+                  1992
+              </option>
+              
+               <option value="">
+                  1993
+              </option>
+              
+               <option value="">
+                  1994
+              </option>
+              
+               <option value="">
+                  1995
+              </option>
+              
+               <option value="">
+                  1996
+              </option>
+              
+               <option value="">
+                  1997
+              </option>
+              
+               <option value="">
+                  1998
+              </option>
+              
+               <option value="">
+                  1999
+              </option>
+              
+               <option value="">
+                  2000
+              </option>
+              
+              <option value="">
+                  2001
+              </option>
+              
+              <option value="">
+                  2002
+              </option>
+              
+              <option value="">
+                  2003
+              </option>
+              
+              <option value="">
+                  2004
+              </option>
+              
+              <option value="">
+                  2005
+              </option>
+              
+              <option value="">
+                  2006
+              </option>
+              
+              <option value="">
+                  2007
+              </option>
+              
+              <option value="">
+                  2008
+              </option>
+              
+              <option value="">
+                  2009
+              </option>
+              
+              <option value="">
+                  2010
+              </option>
+              
+              <option value="">
+                  2011
+              </option>
+              
+              <option value="">
+                  2012
+              </option>
+              
+              <option value="">
+                  2013
+              </option>
+              
+              <option value="">
+                  2014
+              </option>
+              
+              <option value="">
+                  2015
+              </option>
+              
+              <option value="">
+                  2016
+              </option>
+              
+              <option value="">
+                  2017
+              </option>
+              
+              <option value="">
+                  2018
+              </option>
+              
+              <option value="">
+                  2019
+              </option>
+              
+              <option value="">
+                  2020
+              </option>
+              
+          </select>
+          </div>
+             
+          
+              
+         </div>
+         
+         <div class="modal-gender">
+            
+            <label for="">Gender</label>
+            
+            <div class="modal-gender-alert">
+                
+                <a >&#63;</a>
+                
+            </div>
+             
+         </div>
+         
+         <div class="modal-gender-choice">
+            
+            <div class="modal-gender-name">
+                
+                <label for="">Female</label>
+                
+                <input type="radio">
+                
+            </div>
+            
+            <div class="modal-gender-name">
+                
+                <label for="">Male</label>
+                
+                <input type="radio">
+                
+            </div>
+            
+            <div class="modal-gender-name">
+                
+                <label for="">Custom</label>
+                
+                <input type="radio">
+                
+            </div>
+             
+         </div>
+         
+         <div class="modal-signup-terms">
+             
+             <p> By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.  
+               </p>
+               
+         </div>
+         
+         <div class="modal-signup-button">
+             
+             <button>Sign Up</button>
+             
+         </div>
+         
+     </div>
+      
+  </div>
+   
+</div>
