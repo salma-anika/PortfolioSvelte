@@ -9,11 +9,11 @@
             X
         </div>
         
-        <div class="modal-signup-heading">
+        <div class="modal-signup-head">
             
             <p class="modal-signup-name">Sign Up</p>
             
-            <p class="modal-signup-child-name">It's quick and easy.</p>
+            <p class="modal-signup-note">It's quick and easy.</p>
             
         </div>
         

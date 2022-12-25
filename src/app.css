@@ -221,19 +221,19 @@ div#contact h2{
     color: #000;
     cursor: pointer;
 }
-.modal-signup-heading{
+.modal-signup-head{
     
     width: 100%;
     margin-top: 5px;
     padding-bottom: 10px;
     border-bottom: 1px solid #ccc;
 }
-.modal-signup-heading .modal-signup-name{
+.modal-signup-head .modal-signup-name{
     
     font-size: 30px;
     font-weight: bold;
 }
-.modal-signup-heading .modal-signup-child-name{
+.modal-signup-head .modal-signup-note{
     
     font-size: 17px;
     margin-top: 5px;
