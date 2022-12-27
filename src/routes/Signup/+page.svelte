@@ -1,23 +1,23 @@
-<div class="container">
+<div class="container w-full h-full bg-slate-100">
        
   
-  <div class="modal">
+  <div class="modal w-full h-full top-0 left-0 bottom-0 right-0 fixed">
      
-     <div class="modal-signup">
+     <div class="modal-signup w-1/2 m-auto mt-24 bg-white relative rounded-md p-5 shadow-md">
         
-        <div class="modal-close">
+        <div class="modal-close absolute text-xl cursor-pointer text-black right-3 top-3">
             X
         </div>
         
-        <div class="modal-signup-head">
+        <div class="modal-signup-head w-full pb-3 mt-1 text-3xl">
             
-            <p class="modal-signup-name">Sign Up</p>
+            <p class="modal-signup-name text-3xl font-bold">Sign Up</p>
             
-            <p class="modal-signup-note">It's quick and easy.</p>
+            <p class="modal-signup-note text-base mt-1">It's quick and easy.</p>
             
         </div>
         
-        <div class="modal-signup-name">
+        <div class="modal-signup-name w-full flex mt-3 justify-between">
                   
            <input type="text" placeholder="First name">
            
@@ -25,23 +25,23 @@
                       
         </div>
         
-        <div class="modal-signup-email">
+        <div class="modal-signup-email w-full flex mt-3">
                   
            <input type="email" placeholder="Email address or phone number">
                   
         </div>
               
-        <div class="modal-signup-password">
+        <div class="modal-signup-password w-full flex mt-3">
                   
             <input type="password" placeholder="Password">
                   
          </div>
               
-         <div class="modal-date-birth">
+         <div class="modal-date-birth w-full flex mt-3 text-center">
             
             <label for="">Date of birth</label>
             
-            <div class="modal-date-alert">
+            <div class="modal-date-alert w-4 h-4 inline-block text-xs text-center text-white ml-1">
                 
                 <a >&#63;</a>
                 
@@ -535,11 +535,11 @@
               
          </div>
          
-         <div class="modal-gender">
+         <div class="modal-gender w-full flex text-center mt-3">
             
             <label for="">Gender</label>
             
-            <div class="modal-gender-alert">
+            <div class="modal-gender-alert h-4 w-4 inline-block text-xs text-center text-white ml-1">
                 
                 <a >&#63;</a>
                 
@@ -547,7 +547,7 @@
              
          </div>
          
-         <div class="modal-gender-choice">
+         <div class="modal-gender-choice w-full justify-between flex mt-1">
             
             <div class="modal-gender-name">
                 
@@ -575,14 +575,14 @@
              
          </div>
          
-         <div class="modal-signup-terms">
+         <div class="modal-signup-terms w-full mt-4 text-xs">
              
              <p> By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.  
                </p>
                
          </div>
          
-         <div class="modal-signup-button">
+         <div class="modal-signup-button w-full m-auto mt-5">
              
              <button>Sign Up</button>
              

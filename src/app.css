@@ -178,73 +178,30 @@ div#contact h2{
     
     
 }
-.container{
-    
-    width: 100%;
-    height: 100%;
-    background-color: #f0f2f5;
-}
+
 
 .modal{
     
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top:0;
-    left:0;
-    bottom: 0;
-    right: 0;
     background-color: rgba(250,250,250,0.8);
     
 }
 .modal-signup{
     
-    width: 50%;
+  
     max-width: 35%;
-    margin: auto;
-    margin-top: 100px;
-    background-color: white;
-    position: relative;
-    padding: 20px;
-    border-radius: 5px;
+  
     box-shadow: 0 2px 4px rgba(0,0,0,0.1),
     0 8px 16px rgba(0,0,0,0.1) ; 
 
   
 }
-.modal-close{
-   
-    position: absolute;
-    right:10px;
-    top:10px;
-    font-size: 20px;
-    color: #000;
-    cursor: pointer;
-}
+
 .modal-signup-head{
-    
-    width: 100%;
-    margin-top: 5px;
-    padding-bottom: 10px;
+ 
     border-bottom: 1px solid #ccc;
 }
-.modal-signup-head .modal-signup-name{
-    
-    font-size: 30px;
-    font-weight: bold;
-}
-.modal-signup-head .modal-signup-note{
-    
-    font-size: 17px;
-    margin-top: 5px;
-}
-.modal-signup-name{
-    
-    width: 100%;
-    display: flex;
-    margin-top: 10px;
-    justify-content: space-between
-}
+
+
 .modal-signup-name input[type=text]{
     
     width: 48%;
@@ -256,12 +213,7 @@ div#contact h2{
     background-color: #eee;
 }
 
-.modal-signup-email{
-    
-    width: 100%;
-    display: flex;
-    margin-top: 10px;
-}
+
 .modal-signup-email input[type=email]{
     
     width: 100%;
@@ -273,13 +225,7 @@ div#contact h2{
     background-color: #eee;
 }
 
-.modal-signup-password{
-    
-    width: 100%;
-    display: flex;
-    margin-top: 10px;
-    
-}
+
 .modal-signup-password input[type=password]{
     
     width: 100%;
@@ -290,24 +236,15 @@ div#contact h2{
     border-radius: 5px;
     background-color: #eee;
 }
-.modal-date-birth{
-    
-   width: 100%;
-   margin-top: 10px;
-   display: flex;
-   align-items: center;
-}
+
 .modal-date-alert{
     
-    width: 15px;
-    height: 15px;
-    display: inline-block;
+  
     background-color: #aaa;
-    font-size: 12px;
+ 
     border-radius: 50%;
-    text-align: center;
-    color: white;
-    margin-left: 3px;
+  
+
 }
 .modal-date-selection{
     
@@ -331,32 +268,15 @@ div#contact h2{
     border: 1px solid #ccc;
     color: #080808;
 }
-.modal-gender{
-    
-   width: 100%;
-   margin-top: 10px;
-   display: flex;
-   align-items: center; 
-}
+
 .modal-gender-alert{
     
-    width: 15px;
-    height: 15px;
-    display: inline-block;
+  
     background-color: #aaa;
-    font-size: 12px;
     border-radius: 50%;
-    text-align: center;
-    color: white;
-    margin-left: 3px;
-}
-.modal-gender-choice{
    
-    width: 100%;
-    margin-top: 5px;
-    display: flex;
-    justify-content: space-between;
 }
+
 .modal-gender-name{
     
      width: 32%;
@@ -368,18 +288,10 @@ div#contact h2{
      justify-content: space-between;
      align-items: center;
 }
-.modal-signup-terms{
-    width: 100%;
-    margin-top: 15px; 
-    font-size: 12px;
-}
 
 .modal-signup-button{
-    
-    width: 100%;
     max-width: 200px;
-    margin: auto;
-    margin-top: 20px;
+ 
 }
 .modal-signup-button button{ 
     
