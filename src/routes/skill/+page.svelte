@@ -10,37 +10,37 @@
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/html.png" alt=""/>
-           <h3 class='font-light uppercase'>html</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">html</h3>
            
        </div>
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/css.png" alt=""/>
-           <h3 class='font-light uppercase'>css</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">css</h3>
            
        </div>
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/bootstrap.png" alt=""/>
-           <h3 class='font-light uppercase'>bootstrap</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">bootstrap</h3>
            
        </div>
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/nextjs.png" alt=""/>
-           <h3 class='font-light uppercase'>nextjs</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">nextjs</h3>
            
        </div>
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/react.png" alt=""/>
-           <h3 class='font-light uppercase'>reactjs</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">reactjs</h3>
            
        </div>
        <div class='flex flex-col lg:flex-row gap-10 lg:gap-0 items-center justify-between shadow-lg p-6 rounded-xl 
        hover:scale-105 ease-in duration-300 odd:shadow-rose-600 even:shadow-blue-400'>
            <img height="64" width="64" src="/tailwind.png" alt=""/>
-           <h3 class='font-light uppercase'>tailwind css</h3>
+           <h3 class='font-light uppercase' style="font-size: small;">tailwind css</h3>
            
        </div>
       </div>
