@@ -149,3 +149,142 @@ div#skill h2{
 div#contact h2{
     font-family: 'Noto Serif', serif;
 }
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    
+    
+}
+
+
+.modal{
+    
+    background-color: rgba(250,250,250,0.8);
+    
+}
+.modal-signup{
+    
+  
+    max-width: 35%;
+  
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1),
+    0 8px 16px rgba(0,0,0,0.1) ; 
+
+  
+}
+
+.modal-signup-head{
+ 
+    border-bottom: 1px solid #ccc;
+}
+
+
+.modal-signup-name input[type=text]{
+    
+    width: 48%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+
+.modal-signup-email input[type=email]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+
+.modal-signup-password input[type=password]{
+    
+    width: 100%;
+    padding:8px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.modal-date-alert{
+    
+  
+    background-color: #aaa;
+ 
+    border-radius: 50%;
+  
+
+}
+.modal-date-selection{
+    
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.select-choice{
+    
+    width: 33%;
+    
+}
+.select-choice select{
+ 
+    width: 96%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    border: 1px solid #ccc;
+    color: #080808;
+}
+
+.modal-gender-alert{
+    
+  
+    background-color: #aaa;
+    border-radius: 50%;
+   
+}
+
+.modal-gender-name{
+    
+     width: 32%;
+     border: 1px solid #ccc;
+     padding: 5px;
+     border-radius: 5px;
+     font-size: 17px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.modal-signup-button{
+    max-width: 200px;
+ 
+}
+.modal-signup-button button{ 
+    
+    width: 100%;
+    padding: 10px;
+    background-color:#32cd32;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+
+
+
+
