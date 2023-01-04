@@ -33,11 +33,7 @@
     <li class="menulist"><a href="skill" class="">Skill</a></li>
     <li class="menulist"><a href="copy" class="">copy</a></li>
     <li class="menulist"><a href="contact" class="">Contact</a></li>
-<<<<<<< HEAD
 	<li class="menulist"><a href="signup" class="">Signup</a></li>
-=======
-    <li class="menulist"><a href="signup" class="">Signup</a></li>
->>>>>>> dcb01c2e689215309be98eaa1d4b6e86e06fa56d
   </ul>
 </header>
 
