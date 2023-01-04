@@ -33,6 +33,7 @@
     <li class="menulist"><a href="skill" class="">Skill</a></li>
     <li class="menulist"><a href="copy" class="">copy</a></li>
     <li class="menulist"><a href="contact" class="">Contact</a></li>
+	<li class="menulist"><a href="signup" class="">Signup</a></li>
   </ul>
 </header>
 
